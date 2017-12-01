@@ -1,0 +1,35 @@
+[submodule "bundle/ale"]
+	path = bundle/ale
+	url = https://github.com/w0rp/ale
+
+[submodule "bundle/lightline.vim"]
+        path = bundle/lightline.vim
+        url = https://github.com/itchyny/lightline.vim
+
+[submodule "nerdtree"]
+        path = bundle/nerdtree
+        url = https://github.com/scrooloose/nerdtree.git
+
+[submodule "rust.vim"]
+        path = bundle/rust.vim
+        url = https://github.com/rust-lang/rust.vim.git
+
+[submodule "vim-colors-solarized"]
+        path = bundle/vim-colors-solarized
+        url = git://github.com/altercation/vim-colors-solarized.git
+
+[submodule "vim-commentary"]
+        path = bundle/vim-commentary
+        url = git://github.com/tpope/vim-commentary.git
+
+[submodule "vim-gitgutter"]
+        path = bundle/vim-gitgutter
+        url = git://github.com/airblade/vim-gitgutter.git
+
+[submodule "vim-polyglot"]
+        path = bundle/vim-polyglot
+        url = https://github.com/sheerun/vim-polyglot
+
+[submodule "vim-surround"]
+        path = bundle/vim-surround
+        url = git://github.com/tpope/vim-surround.git
