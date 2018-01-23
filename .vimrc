@@ -48,4 +48,4 @@ let g:lightline = {
   \ }
 
 " toggle syntax highlighting in ALE on/off
-nmap \q :ALEToggle<CR>
+nmap \s :ALEToggle<CR>
