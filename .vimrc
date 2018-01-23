@@ -46,3 +46,6 @@ set noshowmode " TODO explain
 let g:lightline = {
   \ 'colorscheme': 'solarized',
   \ }
+
+" toggle syntax highlighting in ALE on/off
+nmap \q :ALEToggle<CR>
