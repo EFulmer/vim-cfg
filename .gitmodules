@@ -37,9 +37,15 @@
 [submodule "vim-flake8"]
         path = bundle/vim-flake8
         url = git://github.com/nvie/vim-flake8
+
 [submodule "bundle/vim-better-whitespace"]
 	path = bundle/vim-better-whitespace
 	url = git@github.com:ntpeters/vim-better-whitespace
+
 [submodule "autoload/YouCompleteMe"]
 	path = autoload/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe
+
+[submodule "vim-scripts/grep.vim"]
+        path = bundle/grep.vim
+        url = https://github.com/vim-scripts/grep.vim

@@ -39,6 +39,7 @@ filetype plugin indent on
 
 " set the colorscheme to solarized
 colorscheme solarized
+set background=dark
 
 " needed for lightline
 set laststatus=2 " TODO explain
@@ -49,3 +50,35 @@ let g:lightline = {
 
 " toggle syntax highlighting in ALE on/off
 nmap \s :ALEToggle<CR>
+
+" TODO explain
+set mouse=a
+
+" bind flake8 checking to \c
+autocmd FileType python map <buffer> \c :call Flake8()<CR> 
+
+" TODO do this smarter?
+set rtp+=~/.fzf
+
+" "tabbed" editing
+set hidden
+set wildchar=<Tab> wildmenu wildmode=full
+
+" NERDtree
+" TODO explain this.
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+map <C-n> :NERDTreeToggle<CR>
+
+" TODO explain this.
+" :tab sball
+
+" :au BufAdd,BufNewFile * nested tab sball
+"
+
+"=====================================================
+""" Grep-vim Settings
+"=====================================================
+nnoremap <silent> <leader>f :Rgrep<CR>
+let Grep_Default_Options = '-IR'
+let Grep_Skip_Files = '*.log *.db'
+let Grep_Skip_Dirs = '.git node_modules'
